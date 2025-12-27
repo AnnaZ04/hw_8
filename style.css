@@ -1,0 +1,146 @@
+.container{
+    border: 2px solid;
+    padding: 10px;
+    background-color:rgb(232, 229, 229)
+}
+
+[class*="block"] {
+  background-color:darkgray
+}
+
+.block__left{
+     float: left;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+}
+
+.block__right{
+     float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+.container{
+ border: 2px solid;
+    padding: 10px;
+}
+
+.block__left{
+    float: left;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+}
+
+.block__right{
+    float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-left: 5px;
+    
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container{
+ border: 2px solid;
+    padding: 10px;
+}
+
+.block__left{
+    float: left;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-right: 5px;
+}
+
+.block__right{
+    float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-left: 5px;
+    
+}
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container{
+    border: 2px solid;
+    padding: 10px;
+}
+
+.block__right__small1{
+     float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-left: 5px;
+}
+
+.block__right__small2{
+     float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-top: 75px;
+    margin-right: -115px;
+}
+
+.block__right__big{
+    float: right;
+    width: 100px;
+    height: 135px;
+    border: 5px solid;
+}
+
+.container {
+    border: 2px solid;
+    padding: 10px;
+    width: 100%;
+}
+ 
+.block__right__small-1{
+     float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-left: 5px;
+    margin-right: calc(50% - 130px)
+}
+
+.block__right__small-2{
+     float: right;
+    width: 100px;
+    height: 60px;
+    border: 5px solid;
+    margin-top: 75px;
+    margin-right: -115px;
+}
+
+.block__right__big-1{
+    float: right;
+    width: 100px;
+    height: 135px;
+    border: 5px solid;
+}
